@@ -1,1 +1,6 @@
-console.log("run")
+run()
+
+const run = () => {
+	console.log("run")
+}
+
