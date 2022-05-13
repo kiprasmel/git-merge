@@ -1,6 +1,6 @@
-run()
+run("my-cool-script")
 
-const run = () => {
-	console.log("run")
+const run = (scriptName) => {
+	console.log("run", scriptName)
 }
 
