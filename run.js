@@ -9,5 +9,6 @@ const run = (scriptName) => {
 
 function executeScriptAndDoOtherCoolStuff(scriptName) {
 	execSync(scriptName)
+	consle.log("finished executing")
 }
 
